@@ -1,0 +1,10 @@
+age_int=18
+age_float=18.7
+age_str="20"
+age_bool=False
+age_none=None
+print(type(age_int))
+print(type(age_float))
+print(type(age_str))
+print(type(age_bool))
+print(type(age_none))
