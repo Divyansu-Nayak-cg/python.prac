@@ -1,6 +1,8 @@
-age=55
-if age>=18:
- if age<=60:
-  print("age between 18 and 60")
- else:
-  print("nooooooooooo")
+
+a_id=input("enter if he has id (yes/no): ").strip().lower()
+if a_id=="no":
+    print("he cant enter the class!!")
+elif a_id=="yes":
+    print("welocme!!")
+else:
+    print("invalid input!!")        
